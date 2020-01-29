@@ -1,0 +1,146 @@
+html { 
+  display: block; /* Display property specifies display behaviour. Block value: displays element as                     block element ie starts on a new line and takes up the whole width  */
+  overflow: hidden; /* Overflow propery specifies what should happen if content overflows. Hidden                         property: rest of overflow content will be invisible */
+}
+
+body { 
+  min-width: 1153px; 
+  margin: 0 0 0 0;
+  overflow: hidden;
+}
+
+.format ul {
+  list-style-type: none; 
+}
+
+.format li {
+  list-style-type: none;
+}
+
+.format a {
+  color: #000;
+  opacity: 0.75;
+  text-decoration: none; 
+  font-family: arial, sans-sarif; /* Specific font you want, generic font */
+  font-size: 13px; 
+  padding-left: 16px; /* Padding used to generate space around an element */
+  padding-right: 16px; 
+}
+
+.format a:hover {
+  text-decoration: underline;  
+}
+
+.nav ul {
+  padding-left: 0; 
+}
+
+.nav {
+  margin-top: -10px;
+  padding: 0 0 0 0;
+  width: 1915px;
+  overflow: hidden;
+}
+
+.icon {
+  height: 15px; 
+  width: 15px;
+  vertical-align: middle;
+}
+
+#avatar {
+  height: 2.5em;
+  width; 2.5em;
+}
+
+/* NOTE: # is an id selector, used to target a single specific element with a unique id, but . is a class selector used to target multiple elements with a particular class.*/
+
+#wrapper {
+  width: 1241px;
+  margin: 0 auto; /* auto = browser calculates margin */
+  text-align: center;
+  overflow: hidden; 
+  margin-top: 130px; 
+}
+
+#wrapper #logo {
+  margin: 0 -100%;
+  vertical-align: middle;
+}
+
+.search-box {
+    border-radius: 24px;
+    display: inline-block;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 582px;
+}
+
+.centered {
+    padding-top: 5px;
+    margin-top: 21px;
+    height: 150px;
+}
+
+.search-box {
+    display: inline-block;
+}
+.search-box input {
+    margin-top: -38px;
+    width: 515px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    border: 0;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+
+#search-icon {
+    max-width: 15px;
+    max-height: 15px;
+    margin: 14 10 0 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons input {
+    height: 36px;
+    width: 127.41px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.buttons input:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+#luck {
+    width: 142.467px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 38px;
+    min-width: 1153px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    left: 0;
+}
